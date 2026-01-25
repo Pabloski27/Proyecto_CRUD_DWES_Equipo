@@ -10,7 +10,8 @@ Permite gestionar
 
 ## Estructura del proyecto
 
-```MVC
+```bash
+    MVC
     |
     |--controller
     |      |
@@ -47,7 +48,14 @@ Permite gestionar
     |
     |--config.php
     |--index.php
+```
 
 ## Requisitos
 - Servidor web XAMPP
 - PHP 7.0 o superior
+- Mysql
+- Navegador Web
+## Instalación
+Clonamos el repositorio:
+```bash
+git clone
