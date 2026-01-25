@@ -55,7 +55,29 @@ Permite gestionar
 - PHP 7.0 o superior
 - Mysql
 - Navegador Web
+  
 ## Instalación
-Clonamos el repositorio:
+1. Clonamos el repositorio:
 ```bash
-git clone
+git clone https://github.com/Pabloski27/Proyecto_CRUD_DWES_Equipo.git
+```
+2. Instalamos Xampp para el servidor:
+   Tendremos en cuenta el disco donde lo instalamos para mas adelante
+   
+3. Copiamos la carpeta MVC
+   En windows con Xampp la copiaremos en htdocs que de normal estara en Disco local/xampp/
+
+4. Importamos la base de datos proporcionada
+   Estara en la MVC, una vez instalado Xampp y iniciado mysql se accedera a phpmyadmin,le daremos a importar y seleccionaremos el archivo con la base de datos
+
+5.Accederemos desde el navegador
+   Una vez  iniciado apache y mysql iremos al navegador y iremos a http://localhost/MVC para ver nuestro proyecto
+
+## Acceso y Credenciales
+
+Se debera de configurar la base de datos con los datos datos en el archivo config.php:
+
+- define("SERVIDOR", "localhost"); 
+- define("USUARIO", "root"); 
+- define("CONTRASENA", ""); 
+- define("BASEDATOS", "mvc");
