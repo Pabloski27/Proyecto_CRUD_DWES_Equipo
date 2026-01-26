@@ -19,17 +19,17 @@
             foreach ($clientes->filas as $fila) :
         ?>
                 <tr>
-                    <td style="text-align: left; width: 5%;"><?php echo $fila->id; ?></td>
-                    <td><?php echo $fila->nombre; ?></td>
-                    <td><?php echo $fila->email; ?></td>
+                    <td style="text-align: left; width: 5%;"><?php echo htmlspecialchars($fila->id); ?></td>
+                    <td><?php echo htmlspecialchars($fila->nombre); ?></td>
+                    <td><?php echo htmlspecialchars($fila->email); ?></td>
                     <td style="text-align: right; width: 50%;">
-                        <a href="index.php?c=clientes&m=editar&id=<?php echo $fila->id; ?>">
+                        <a href="index.php?c=clientes&m=editar&id=<?php echo htmlspecialchars($fila->id); ?>">
                             <button type="button" class="btn btn-success">Editar</button></a>
-                        <a href="index.php?c=clientes&m=borrar&id=<?php echo $fila->id; ?>">
+                        <a href="index.php?c=clientes&m=borrar&id=<?php echo htmlspecialchars($fila->id); ?>">
                             <button type="button" class="btn btn-danger borrar"
                                 onclick="return confirm('¿Estás seguro de borrar el registro <?php
-                                                                                                echo $fila->id; ?>?');">Borrar</button></a>
-                        <a href= "index.php?c=facturas&m=verf&id_cliente=<?php echo $fila->id;?>">
+                                                                                                echo htmlspecialchars($fila->id); ?>?');">Borrar</button></a>
+                        <a href= "index.php?c=facturas&m=verf&id_cliente=<?php echo htmlspecialchars($fila->id);?>">
                             <button type="button" class="btn btn-warning">Facturas</button></a>
                              <a href="index.php?c=clientes&m=exportar">
                     <button type="button" class="btn btn-success">Exportar</button>
