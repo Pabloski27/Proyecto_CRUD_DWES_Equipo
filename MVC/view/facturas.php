@@ -23,9 +23,9 @@
             foreach ($factura->filas as $fila) :
         ?>
                 <tr>
-                    <td style="text-align: left; width: 5%;"><?php echo $fila->id; ?></td>
-                    <td><?php echo $fila->cliente_nombre; ?></td>
-                    <td><?php echo $fila->numero; ?></td>
+                    <td style="text-align: left; width: 5%;"><?php echo htmlspecialchars($fila->id); ?></td>
+                    <td><?php echo htmlspecialchars($fila->cliente_nombre); ?></td>
+                    <td><?php echo htmlspecialchars($fila->numero); ?></td>
                     <td><?php echo $fila->fecha; ?></td>
                     <td><?= number_format($fila->base, 2) ?> €</td>
                     <td><?= number_format($fila->iva_total, 2) ?> €</td>
