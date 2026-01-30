@@ -6,7 +6,7 @@ Permite gestionar
 - Clientes
 - Articulos
 - Facturas
-- Lineas 
+- Lineas de factura
 
 ## Estructura del proyecto
 
