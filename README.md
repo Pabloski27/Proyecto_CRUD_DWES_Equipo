@@ -4,7 +4,7 @@ Este proyecto es una aplicación web desarrollada en **PHP** que implementa un s
 
 Permite gestionar
 - clientes
-- Articulos
+- articulos
 - Facturas
 - Lineas de factura
 
