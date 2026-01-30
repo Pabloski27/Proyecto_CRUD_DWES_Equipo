@@ -1,6 +1,6 @@
 # Proyecto CRUD
 
-este proyecto es una aplicación web desarrollada en **PHP** que implementa un sistema **CRUD (Create, Read, Update, Delete)** utilizando el patrón de diseño **MVC (Modelo-Vista-Controlador)**.
+Este proyecto es una aplicación web desarrollada en **PHP** que implementa un sistema **CRUD (Create, Read, Update, Delete)** utilizando el patrón de diseño **MVC (Modelo-Vista-Controlador)**.
 
 Permite gestionar
 - Clientes
