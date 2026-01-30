@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación web desarrollada en **PHP** que implementa un sistema **CRUD (Create, Read, Update, Delete)** utilizando el patrón de diseño **MVC (Modelo-Vista-Controlador)**.
 
-permite gestionar
+Permite gestionar
 - Clientes
 - Articulos
 - Facturas
